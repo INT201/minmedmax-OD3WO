@@ -22,7 +22,7 @@ function minMedMax(n1, n2, n3) {
     }
   }
   let obj = {min: arr[0], mid: arr[1], max: arr[2]}
-  console.log(obj);
+  return obj;
 } 
 module.exports = minMedMax
 // (minMedMax(-1, -8, 0));
