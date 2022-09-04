@@ -21,7 +21,7 @@ function minMedMax(n1, n2, n3) {
       arr = [n3, n2, n1];
     }
   }
-  console.log(`{min: ${arr[0]}, mid: ${arr[1]}, max: ${arr[2]}}`);
+  console.log(`{max: ${arr[2]}, mid: ${arr[1]}, min: ${arr[0]}}`);
 } 
 module.exports = minMedMax
 // (minMedMax(-1, -8, 0));
